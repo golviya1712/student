@@ -7,6 +7,8 @@ import com.assistance.studentstaff.model.ActivityTraceModel;
 public interface IActivityService {
 
 	public List<ActivityTraceModel> fetchAllAcivityTrace();
+	
+	/*Test*/
 
 	public List<ActivityTraceModel> fetchAcivityTraceByUserId(String userId);
 }
